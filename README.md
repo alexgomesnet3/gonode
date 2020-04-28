@@ -2,6 +2,10 @@
 
 Construir uma API-Only com AdonisJS e utilizando os principais métodos de uma aplicação básica, como criação de usuários, controle de autenticação, recuperação de passoword e etc.
 
+<p align="center">
+  <img src="adonisJS.png" alt="AdonisJS API" width="400">
+</p>
+
 Abaixo segue o link da plataforma de cursos Skylab.
 https://skylab.rocketseat.com.br/
 
