@@ -1,5 +1,8 @@
 # Curso AdonisJS da RocketSeat - Skylab
 
+Construir uma API-Only com AdonisJS e utilizando os principais métodos de uma aplicação básica, como criação de usuários, controle de autenticação, recuperação de passoword e etc.
+
+Abaixo segue o link da plataforma de cursos Skylab.
 https://skylab.rocketseat.com.br/
 
 ## Adonis API application
