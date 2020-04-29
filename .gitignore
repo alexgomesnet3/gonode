@@ -6,6 +6,7 @@ tmp
 
 # Environment variables, never commit this file
 .env
+.DS_Store
 
 # The development sqlite file
 database/*.sqlite

@@ -3,14 +3,15 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-// Created new user
+// Routes Users - users
 Route.post('users', 'UserController.store')
 
-// Auth users in system
+// Routes Auth - sessions
 Route.post('sessions', 'SessionController.store')
 
-// ForgotPassword for users with email field
+// Routes Passwords - forgot-password, reset-password
 Route.post('forgot-password', 'ForgotPasswordController.store')
-
-// ResetPassword for users with email field
 Route.put('reset-password', 'ForgotPasswordController.update')
+
+// Routes Files - files
+Route.post('files', 'FileController.store')
