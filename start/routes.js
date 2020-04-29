@@ -11,3 +11,6 @@ Route.post('sessions', 'SessionController.store')
 
 // ForgotPassword for users with email field
 Route.post('forgot-password', 'ForgotPasswordController.store')
+
+// ResetPassword for users with email field
+Route.put('reset-password', 'ForgotPasswordController.update')
