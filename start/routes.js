@@ -14,4 +14,6 @@ Route.post('forgot-password', 'ForgotPasswordController.store')
 Route.put('reset-password', 'ForgotPasswordController.update')
 
 // Routes Files - files
+Route.get('files/:id', 'FileController.show')
 Route.post('files', 'FileController.store')
+
