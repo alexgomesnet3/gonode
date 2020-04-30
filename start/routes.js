@@ -19,8 +19,9 @@ Route.get('files/:id', 'FileController.show')
 Route.group(() => {
     // Routes File - urls: files - Accessible only by authenticated users
     Route.post('files', 'FileController.store')
-
     // Routes Project - urls: projects* - Accessible only by authenticated users
     Route.resource('projects', 'ProjectController').apiOnly()
+    // Routes Task with Project exists? - urls: projects/id/tasks* - Accessible only by authenticated users
+    Route.resource('projects.tasks', 'TaskController').apiOnly()
 }).middleware(['auth'])
 
